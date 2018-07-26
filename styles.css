@@ -1,0 +1,145 @@
+body {
+  font-family: Tahoma;
+  color: #1e301b;
+  letter-spacing: 1px;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+span {
+  margin: 0 25px 0 0;
+}
+
+#wrapper {
+  width: 90%;
+  max-width: 960px;
+  margin: 20px auto;
+  border-radius: 6px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding: 0 0 20px;
+  overflow: hidden;
+  border: 1px solid lightgray;
+}
+
+#banner {
+  background: #313B74;
+  padding: 10px 0;
+  color: #989dba;
+}
+
+#banner h1 {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#banner input {
+  width: 90%;
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #444;
+}
+
+#grades-list, #add-grade {
+  margin: 30px;
+}
+
+#grades-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#grades-list li {
+  padding: 20px;
+  border-left: 5px solid #ddd;
+  margin: 20px 10px;
+}
+
+#grades-list li:hover {
+  border-color: #a33cc4;
+}
+
+.delete {
+  float: right;
+  background: #a33cc4;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.delete:hover {
+  background: #333;
+}
+
+#add-grade {
+  width: 475px;
+  margin: 0 auto;
+}
+
+#add-grade input {
+  display: block;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 4px 0 0 4px;
+  box-sizing: border-box;
+  width: 200px;
+  float: left;
+}
+
+#add-grade button {
+  border: 1px solid #a33cc4;
+  background: #a33cc4;
+  padding: 10px 20px;
+  font-size: 16px;
+  float: left;
+  margin: 20px 0;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  border-left: 0;
+  color: white;
+}
+
+#add-grade:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#add-grade .weight-input {
+  width: 100px;
+}
+
+#add-grade .grade-input {
+  width: 100px;
+}
+
+#display-results {
+  background: #313B74;
+  color: #989dba;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 40px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  max-width: 60%;
+  padding: 0 0 25px 0;
+}
+
+#display-results span {
+  font-size: 68px;
+}
+
+.total-grade, .total-weight {
+  margin: 0 10px;
+}

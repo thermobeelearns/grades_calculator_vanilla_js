@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Grades Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div id="wrapper">
+
+    <header>
+      <div id="banner">
+        <h1 class="title">Grades Calculator</h1>
+        <form id="search-grades">
+          <input type="text" placeholder="Search grades by name..." />
+        </form>
+      </div>
+    </header>
+
+    <div id="grades-list">
+      <h2>Grades</h2>
+      <ul></ul>
+    </div>
+
+    <form id="add-grade">
+      <input type="text" placeholder="Add a grade">
+      <input class="weight-input" type="number" placeholder="Weight">
+      <input class="grade-input" type="number" placeholder="Grade">
+      <button>Add</button>
+    </form>
+
+    <div id="display-results">
+      <div class="display">
+        Grade:<span class="total-grade">0%</span>
+      </div>
+      <div class="display">
+        Total Weight:<span class="total-weight">0</span>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
